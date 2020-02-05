@@ -1,4 +1,4 @@
-# Error codes for BlueHelix Broker (2018-09-25)
+# Error codes for BTW API
 
 Errors consist of two parts: an error code and a message. Codes are universal,
  but messages can vary. Here is the error JSON payload:
@@ -88,7 +88,7 @@ Errors consist of two parts: an error code and a message. Codes are universal,
 ### -1103 UNKNOWN_PARAM
 
 * An unknown parameter was sent.
-* In BHEx Open Api , each request requires at least one parameter. {Timestamp}.
+* In BTW Open API , each request requires at least one parameter. {Timestamp}.
 
 ### -1104 UNREAD_PARAMETERS
 
